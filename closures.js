@@ -1,3 +1,7 @@
+/**
+1. The combination of the function and its scope chain (lexical environment) is what is called a closure in Javascript
+2. The combination of function bundled together with references to its surrounding state (the Lexical environment). 
+*/
 console.log("closures");
 function closures() {
   let counter = 0;
