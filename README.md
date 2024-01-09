@@ -2,6 +2,7 @@
 <h3>Concepts</h3>
 <a href="lexicalScope.js">Lexical Scope</a><br/>
 <a href="closures.js">Closures</a><br/>
+<a href="functionCurrying.js">Function Currying</a><br/>
 <h3>Algorithms</h3>
 <a href="fibanocci.js">Fibanocci</a><br/>
 <a href="factorial.js">Factorial</a><br/>
