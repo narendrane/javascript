@@ -52,3 +52,12 @@ function Person2(name) {
 }
 const p1 = new Person2("Naren");
 const p2 = new Person2("Dev");
+
+//bind exercise
+function bind(fn, context) {
+  return function (args) {
+    fn.apply(context, [...args]);
+  };
+}
+const boundFn = bind(sayName, person1);
+boundFn(["Nintendo", "Chess"]);
