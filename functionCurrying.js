@@ -28,3 +28,7 @@ console.log(curriedLog(new Date())("ERROR")("Firstname cannot be null"));
 const logNow = curriedLog(new Date());
 console.log(logNow("ERROR")("Lastname cannot be null"));
 console.log(logNow("INFO")("User logged out!"));
+
+const logErrorNow = curriedLog(new Date())("ERROR");
+console.log(logErrorNow("System Error!"));
+console.log(logErrorNow("Reference Error!"));
