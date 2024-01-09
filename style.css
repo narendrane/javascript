@@ -1,0 +1,23 @@
+.container{ 
+    display: flex;
+}
+.item1{    
+    flex: 2;
+    border: 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-indent: 10px;
+    padding: 10px;
+}
+.item2{
+    flex: 1;
+    border: 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.item{    
+    flex: 1;
+    padding: 10px;
+}
