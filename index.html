@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tryouts</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" placeholder="placeholder" class="item1"/>
+            <input type="button" value="Search" class="item2"/>
+        </div>
+      <div>
+        <input type="button" value="Button A" class="item">
+        <input type="button" value="Button B" class="item">
+        <input type="button" value="Button C" class="item">
+        <input type="button" value="Button D" class="item">
+        <input type="button" value="Button E" class="item">
+        <p id="demo"></p>
+      </div>
+        <script>
+            let element = document.querySelectorAll(".item");
+            console.log(element);
+            for(let i=0; i<element.length; i++){
+                console.log("-", i, element[i]);
+            element[i].addEventListener("click", (e)=>{
+                console.log("button clicked for"+i);
+            })
+            }
+        </script>
+    </body>
+</html>
