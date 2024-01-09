@@ -1,4 +1,13 @@
 # Javascript Tryouts
 <h3>Concepts</h3>
 <a href="lexicalScope.js">Lexical Scope</a><br/>
-<a href="closures.js">Closures</a>
+<a href="closures.js">Closures</a><br/>
+<h3>Algorithms</h3>
+<a href="fibanocci.js">Fibanocci</a><br/>
+<a href="factorial.js">Factorial</a><br/>
+<a href="prime.js">Is Prime number</a><br/>
+<a href="isPowerofTwo.js">is PowerofTwo</a><br/>
+<a href="linearSearch.js">Linear Search</a><br/>
+<a href="binarySearch.js">Binary Search</a><br/>
+<a href="removeDuplicates.js">Remove Duplicates</a><br/>
+<a href="removeElement.js">Remove Element</a><br/>
