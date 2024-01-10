@@ -32,3 +32,21 @@ console.log(logNow("INFO")("User logged out!"));
 const logErrorNow = curriedLog(new Date())("ERROR");
 console.log(logErrorNow("System Error!"));
 console.log(logErrorNow("Reference Error!"));
+
+/**
+Generic currying to accept multiple arguments
+*/
+function genericCurry(fn) {
+  return function currify(...args) {
+    if (args.length >= fn.length) {
+      return fn.apply(this, args);
+    } else {
+      return function (...newArgs) {
+        return currify.apply(this, args.concat(newArgs));
+      };
+    }
+  };
+}
+
+const gcurriedSum = genericCurry(sum);
+console.log("gcurriedSum", gcurriedSum(2, 3)(5));
