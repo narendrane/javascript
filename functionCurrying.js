@@ -48,5 +48,16 @@ function genericCurry(fn) {
   };
 }
 
+function genericCurryTwo(fn) {
+  return function currify(...args) {
+    return args.length >= fn.length
+      ? fn.apply(this, args)
+      : currify.bind(this, ...args);
+  };
+}
+
 const gcurriedSum = genericCurry(sum);
-console.log("gcurriedSum", gcurriedSum(2, 3)(5));
+const gcurriedSumTwo = genericCurryTwo(sum);
+console.log(curriedSum(2)(3)(4));
+console.log("gcurriedSum", gcurriedSum(2)(3, 5));
+console.log("gcurriedSum", gcurriedSumTwo(2)(3, 5));
