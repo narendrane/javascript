@@ -10,6 +10,7 @@
 <a href="map.js">Map</a><br/>
 <a href="set.js">Set</a><br/>
 <a href="iterables.js">Iterables and Iterators</a><br/>
+<a href="generators.js">Generators</a><br/>
 <h3>Algorithms</h3>
 <a href="fibanocci.js">Fibanocci</a><br/>
 <a href="factorial.js">Factorial</a><br/>
