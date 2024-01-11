@@ -26,3 +26,18 @@ for(const word of generator1){
   console.log(word)
 }
 console.log(generator1.next());
+
+// Generator exercise
+
+function* countGenerator(start = 1, end = 10, limit = 1) {
+  let count = start;
+  while (count <= end) {
+    yield count;
+    count = count + limit;
+  }
+}
+const counter = countGenerator(10, 20, 2);
+for (const count of counter) {
+  console.log(count);
+}
+//outputs: 10, 12, 14, 16, 18, 20
