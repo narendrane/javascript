@@ -14,6 +14,7 @@
 <a href="asynch.js">Asynchronous (setTimeout, setInterval)</a><br/>
 <a href="promise.js">Promise</a><br/>
 <a href="async-await.js">Async Await</a><br/>
+<a href="event-looping.js">Event Loop</a><br/>
 <h3>Algorithms</h3>
 <a href="fibanocci.js">Fibanocci</a><br/>
 <a href="factorial.js">Factorial</a><br/>
