@@ -12,7 +12,7 @@
 <a href="iterables.js">Iterables and Iterators</a><br/>
 <a href="generators.js">Generators</a><br/>
 <a href="asynch.js">Asynchronous (setTimeout, setInterval)</a><br/>
-<a href="promise">Promise</a><br/>
+<a href="promise.js">Promise</a><br/>
 <a href="async-await.js">Asynch Await</a><br/>
 <h3>Algorithms</h3>
 <a href="fibanocci.js">Fibanocci</a><br/>
